@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head1{
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #014737;
+    color: white;
+    margin-top: -321px;
+}
+.logo{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7%;
+    
+
+}
+.nav{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+.nav a:hover{
+    color: red;
+
+}
